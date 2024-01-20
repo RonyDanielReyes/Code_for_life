@@ -25,42 +25,44 @@
 </head>
 <body>
     <h1>Population Database Viewer</h1>
-    <table id="userTable">
+    <table id="populationTable">
         <thead>
             <tr>
-                <th>ID</th>
-                <th>Name</th>
+                <th>Year</th>
+                <th>Population</th>
             </tr>
         </thead>
         <tbody></tbody>
     </table>
 
     <script>
-        // Fetch users from the API and populate the table
-        async function fetchUsers() {
+        // Fetch population data from the API and populate the table
+        async function fetchPopulationData() {
             try {
-                const response = await fetch('/api/users');
+                const response = await fetch('/api/populationData');
                 const data = await response.json();
-                const users = data.users;
+                const populationData = data.populationData;
 
-                const tableBody = document.querySelector('#userTable tbody');
+                console.log(populationData); // Log the received data
+
+                const tableBody = document.querySelector('#populationTable tbody');
                 tableBody.innerHTML = '';
 
-                users.forEach(user => {
+                populationData.forEach(entry => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
-                        <td>${user.id}</td>
-                        <td>${user.name}</td>
+                        <td>${entry.Year}</td>
+                        <td>${entry.Population}</td>
                     `;
                     tableBody.appendChild(row);
                 });
             } catch (error) {
-                console.error('Error fetching users:', error);
+                console.error('Error fetching population data:', error);
             }
         }
 
-        // Call fetchUsers when the page loads
-        fetchUsers();
+        // Call fetchPopulationData when the page loads
+        fetchPopulationData();
     </script>
 </body>
 </html>
