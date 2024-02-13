@@ -1,5 +1,5 @@
 // Create a function using the if conditional statement to evaluate 2 options and print the result in the terminal within another if function
-const MoreIcrecream = true;
+const MoreIcrecream = false;
 const MorePoutine = true;
 
 if (MoreIcrecream) {
