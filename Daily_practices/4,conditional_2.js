@@ -1,4 +1,5 @@
 // create a program that put cold and raining as a condition to go outside
+// if raining is true, it will print "Don't forget your umbrella!"
 
 const raining = true;
 const cold = false;
