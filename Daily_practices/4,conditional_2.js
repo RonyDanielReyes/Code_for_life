@@ -1,3 +1,5 @@
+// create a program that put cold and raining as a condition to go outside
+
 const raining = true;
 const cold = false;
 
