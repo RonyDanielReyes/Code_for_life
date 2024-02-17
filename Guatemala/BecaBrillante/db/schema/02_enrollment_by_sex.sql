@@ -6,5 +6,6 @@ CREATE TABLE enrollment_by_sex (
     total INT,
     male INT,
     female INT,
-    Unknown INT
+    Ignorado INT
 );
+
