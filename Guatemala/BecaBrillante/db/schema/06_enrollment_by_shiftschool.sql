@@ -1,1 +1,2 @@
--- comment just to check the time I am making this commit
+DROP TABLE IF EXISTS enrollment_by_shiftschool CASCADE;
+
