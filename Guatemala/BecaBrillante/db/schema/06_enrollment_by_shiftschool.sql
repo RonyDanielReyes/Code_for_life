@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS enrollment_by_shiftschool CASCADE;
 
-create table enrollment_by_shiftschool (
+CREATE TABLE enrollment_by_shiftschool (
   schooltype VARCHAR(50),
   total INT,
   morning INT,
