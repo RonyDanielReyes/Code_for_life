@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS enrollment_primary_bydepartment CASCADE;
 
-CREATE TABLE enrollment_primary_bydepartment (
+CREATE TABLE enrollment_primary_by_department (
   department VARCHAR(50),
   year_2018 INT,
   year_2019 INT,

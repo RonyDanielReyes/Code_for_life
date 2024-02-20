@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS enrollment_data_byshiftgrades CASCADE;
+DROP TABLE IF EXISTS enrollment_data_by_shift_grades CASCADE;
 
 CREATE TABLE enrollment_data_byshiftgrades (
   grade VARCHAR(50),

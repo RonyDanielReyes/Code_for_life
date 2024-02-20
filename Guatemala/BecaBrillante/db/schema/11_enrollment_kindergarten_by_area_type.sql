@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS enrollment_kindergarten_byareatype CASCADE;
 
-CREATE TABLE enrollment_kindergarten_byareatype (
+CREATE TABLE enrollment_kindergarten_by_area_type (
   area VARCHAR(50),
   total INT,
   man INT,

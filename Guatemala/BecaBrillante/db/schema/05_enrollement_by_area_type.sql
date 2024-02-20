@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS enrollment_by_areatype CASCADE;
+DROP TABLE IF EXISTS enrollment_by_area_type CASCADE;
 
 CREATE TABLE enrollment_by_areatype (
   areatype VARCHAR(50),

@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS enrollment_kindergarten_bydepartment CASCADE;
+DROP TABLE IF EXISTS enrollment_kindergarten_by_department CASCADE;
 
 CREATE TABLE enrollment_kindergarten_bydepartment (
   department VARCHAR(50),
