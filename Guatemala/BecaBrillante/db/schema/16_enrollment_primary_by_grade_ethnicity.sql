@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS enrollment_primary_by_grade_ethnicity CASCADE;
 
-CREATE TABLE enrollment_primary_by_grade (
+CREATE TABLE enrollment_primary_by_grade_ethnicity (
   ethnicity VARCHAR(50),
   total INT,
   first_grade INT,

@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS enrollment_data_by_shift_grades CASCADE;
 
-CREATE TABLE enrollment_data_byshiftgrades (
+CREATE TABLE enrollment_data_by_shift_grades (
   grade VARCHAR(50),
   total INT,
   morning INT,

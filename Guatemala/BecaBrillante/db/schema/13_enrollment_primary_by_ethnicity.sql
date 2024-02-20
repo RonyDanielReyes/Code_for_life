@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS enrollment_primary_byethnicity CASCADE;
+DROP TABLE IF EXISTS enrollment_primary_by_ethnicity CASCADE;
 
-CREATE TABLE enrollment_primary_byethnicity (
+CREATE TABLE enrollment_primary_by_ethnicity (
   ethnicity VARCHAR(50),
   total INT,
   man INT,
