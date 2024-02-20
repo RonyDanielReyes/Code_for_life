@@ -6,4 +6,4 @@ CREATE TABLE enrollment_by_identity (
   man INT,
   woman INT,
   ignorado INT
-);
+);ee
