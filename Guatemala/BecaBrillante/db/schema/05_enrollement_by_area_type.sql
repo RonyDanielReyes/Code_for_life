@@ -7,4 +7,3 @@ CREATE TABLE enrollment_by_areatype (
   woman INT,
   ignorado INT
 );
-```
