@@ -1,0 +1,2 @@
+// society is facing a new kind of problem, choice overload, You have so many choices today, that making decisions can be too dificult, Let's help people who are trying to decide
+// which school to send their children to by writing code for them
