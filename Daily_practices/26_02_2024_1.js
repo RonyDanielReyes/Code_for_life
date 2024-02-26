@@ -21,4 +21,3 @@ console.log("Elementary School");
   console.log("Lighthouse Labs");
 }
 
-
