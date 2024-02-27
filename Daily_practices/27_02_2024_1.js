@@ -11,8 +11,8 @@ verse_2 = "I don't like your little games, don't like your tilted stage. The rol
 
 console.log(verse_1)
 let i = 0;
-while (i < 10) {
-    console.log(chorus)
-    i++
+while (i < 3) {
+  console.log(chorus)
+  i++;
 }
 console.log(verse_2)
