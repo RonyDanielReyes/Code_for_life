@@ -8,3 +8,8 @@ If the number is between 1 and 2, print the number followed by ": Full Power.".
 If the number is equal to 0, print the number followed by ": Liftoff!" and then exit the program. */
 
 // first step writing a loop that counts down from 60 to 0
+// second step write if statements for each condition
+
+for (let i = 60; i >= 0; i--) {
+
+}
