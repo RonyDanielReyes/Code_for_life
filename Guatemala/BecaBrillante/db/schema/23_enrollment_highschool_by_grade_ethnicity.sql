@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS enrollment_highschool_by_grade;
+DROP TABLE IF EXISTS enrollment_highschool_by_grade_ethnicity;
 
-CREATE TABLE enrollment_highschool_by_grade (
+CREATE TABLE enrollment_highschool_by_grade_ethnicity (
   grade VARCHAR(50),
   total INT,
   cuarto_grade INT,
