@@ -1,4 +1,4 @@
-const {Pool} = require(pg);
+const {Pool} = require('pg');
 
 const pool = new Pool({
   user: 'labber',
@@ -8,7 +8,7 @@ const pool = new Pool({
 });
 
 pool.query(`
-SELECT * id, department, year_2018, year_2019, year_2020, year_2021, year_2022
+SELECT id, department, year_2018, year_2019, year_2020, year_2021, year_2022
 FROM enrollment_data
 LIMIT 10;
 `)
