@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Data</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>Enrollment Data</h1>
+    <div id="enrollmentData"></div>
+
+    <script>
+        // Fetch data from your backend API
+        fetch('http://localhost:3000/enrollment_data')
+            .then(response => response.json())
+            .then(data => {
+                // Process the data and display it
+                const enrollmentDataDiv = document.getElementById('enrollmentData');
+                enrollmentDataDiv.innerHTML = '<h2>Enrollment Data</h2>';
+
+                // Create a list to display the data
+                const ul = document.createElement('ul');
+
+                // Loop through the data and create list items
+                data.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = `ID: ${item.id}, Name: ${item.name}, Enrollment: ${item.enrollment}`;
+                    ul.appendChild(li);
+                });
+
+                // Append the list to the enrollmentDataDiv
+                enrollmentDataDiv.appendChild(ul);
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+</html>
