@@ -10,7 +10,7 @@ const pool = new Pool({
 pool
   .query(
     `
-SELECT id, department, year_2018, year_2019, year_2020, year_2021, year_2022
+SELECT *
 FROM enrollment_data
 LIMIT 24;
 `
@@ -23,3 +23,21 @@ LIMIT 24;
     });
   })
   .catch((err) => console.error("query error", err.stack));
+
+  pool
+  .query(
+    `
+SELECT *
+FROM enrollment_by_sex
+LIMIT 24;
+`
+  )
+  .then((res) => {
+    res.rows.forEach((row) => {
+      console.log(
+        `${row.year} ${row.level} ${row.total} ${row.male} ${row.female} ${row.ignordo}`
+      );
+    });
+  })
+  .catch((err) => console.error("query error", err.stack));
+
