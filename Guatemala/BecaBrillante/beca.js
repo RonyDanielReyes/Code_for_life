@@ -1,4 +1,8 @@
+const express = require("express");
 const { Pool } = require("pg");
+
+const app = express();
+const port = 3000;
 
 const pool = new Pool({
   user: "labber",
@@ -7,37 +11,30 @@ const pool = new Pool({
   database: "guatemala",
 });
 
-pool
-  .query(
-    `
-SELECT *
-FROM enrollment_data
-LIMIT 24;
-`
-  )
-  .then((res) => {
-    res.rows.forEach((row) => {
-      console.log(
-        `${row.id} ${row.department} ${row.year_2018} ${row.year_2019} ${row.year_2020} ${row.year_2021} ${row.year_2022}`
-      );
-    });
-  })
-  .catch((err) => console.error("query error", err.stack));
-
+app.get("/enrollment_data", (req, res) => {
   pool
-  .query(
-    `
-SELECT *
-FROM enrollment_by_sex
-LIMIT 24;
-`
-  )
-  .then((res) => {
-    res.rows.forEach((row) => {
-      console.log(
-        `${row.year} ${row.level} ${row.total} ${row.male} ${row.female} ${row.ignordo}`
-      );
+    .query("SELECT * FROM enrollment_data LIMIT 24;")
+    .then((result) => {
+      res.json(result.rows);
+    })
+    .catch((error) => {
+      console.error("query error", error.stack);
+      res.status(500).json({ error: "Internal server error" });
     });
-  })
-  .catch((err) => console.error("query error", err.stack));
+});
 
+app.get("/enrollment_by_sex", (req, res) => {
+  pool
+    .query("SELECT * FROM enrollment_by_sex LIMIT 24;")
+    .then((result) => {
+      res.json(result.rows);
+    })
+    .catch((error) => {
+      console.error("query error", error.stack);
+      res.status(500).json({ error: "Internal server error" });
+    });
+});
+
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
+});
