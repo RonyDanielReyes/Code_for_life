@@ -38,7 +38,7 @@ console.log(car);
 /* Print the value of the size property of the following object using
  square bracket notation and the variable called key at your disposal. */
 
-const key = "size";
+/* const key = "size";
 
 const coffee = {
   type: "latte",
@@ -46,4 +46,20 @@ const coffee = {
   cupType: "paper",
 };
 
-console.log(coffee[key]);
+console.log(coffee[key]); */
+
+// exercise 5
+//Print the values of the mug object using a loop and the array called keys.
+
+
+const keys = ["color", "material"];
+
+const mug = {
+  size: 500,
+  color: "red",
+  material: "porcelain",
+};
+
+for (let i = 0; i < keys.length; i++) {
+  console.log(mug[keys[i]]);
+}
