@@ -15,3 +15,10 @@ const ingredients = [
   "bananas"
 ];
 
+let i = 0;
+
+while (i < ingredients.length) {
+  console.log(ingredients[i]);
+  i++;
+}
+
