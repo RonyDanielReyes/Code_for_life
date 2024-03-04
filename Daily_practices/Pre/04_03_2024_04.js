@@ -23,7 +23,7 @@ console.log(gamer); */
 // exercise 3
 /* Create an object called car with properties for make, model, and year. Remove the key year from the object, then show the resulting object */
 
-let car = {
+/* let car = {
   make: 'Toyota',
   model: 'Corolla',
   year: 2020,
@@ -32,3 +32,18 @@ let car = {
 delete car.year;
 
 console.log(car);
+ */
+
+// exercise 4
+/* Print the value of the size property of the following object using
+ square bracket notation and the variable called key at your disposal. */
+
+const key = "size";
+
+const coffee = {
+  type: "latte",
+  size: 400,
+  cupType: "paper",
+};
+
+console.log(coffee[key]);
