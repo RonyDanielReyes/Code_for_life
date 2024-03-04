@@ -17,13 +17,16 @@ const ingredients = [
 
 let i = 0;
 
+// challenge 1 
+
 /* while (i < ingredients.length) {
   console.log(ingredients[i]);
   i++;
 }
  */
 
-for (i = 0; i < ingredients.length; i++) {
+// challenge 2
+/* for (i = 0; i < ingredients.length; i++) {
   console.log(ingredients[i]);
 }
-
+ */
