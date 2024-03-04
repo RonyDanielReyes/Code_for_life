@@ -14,7 +14,6 @@ const ingredients = [
   "chocolate chips",
   "bananas"
 ];
-
 let i = 0;
 
 // challenge 1 
@@ -30,3 +29,9 @@ let i = 0;
   console.log(ingredients[i]);
 }
  */
+
+// challenge 3
+while (i < ingredients.length) {
+  console.log(ingredients[ingredients.length - 1 - i]);
+  i++;
+}
