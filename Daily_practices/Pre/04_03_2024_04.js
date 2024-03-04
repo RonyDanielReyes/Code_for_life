@@ -1,4 +1,4 @@
-// creation of some exercises for objects
+// creation of some exercises for arrays
 
 // exercise 1
 /* Create an empty object called someone, add properties for name 
