@@ -1,0 +1,17 @@
+/* Problem #1: Write a while loop that prints out each item of ingredients.
+
+Problem #2: Write a for loop that does the same thing.
+
+Problem #3: Write any loop, while or for, that prints out each item of ingredients but backwards (that is, the first should be "bananas" and the last "eggs"). */
+
+const ingredients = [
+  "eggs",
+  "milk",
+  "flour",
+  "sugar",
+  "baking soda",
+  "baking powder",
+  "chocolate chips",
+  "bananas"
+];
+
