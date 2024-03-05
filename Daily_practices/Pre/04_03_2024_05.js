@@ -21,7 +21,6 @@ console.log(values);
  */
 
 // iterating over objects 
-
 const steel = {
   name: "1084",
   type: "Carbon Steel",
@@ -35,3 +34,7 @@ const steel = {
   forging_min_temp: 900,
   forging_max_temp: 1200,
 };
+
+// The challenge is to provide the following output:
+// ["iron", "carbon", "manganese", "phosphorus", "sulfur"];
+
