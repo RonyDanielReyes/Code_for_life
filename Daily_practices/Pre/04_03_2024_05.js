@@ -38,12 +38,24 @@ const steel = {
 // The challenge is to provide the following output:
 // ["iron", "carbon", "manganese", "phosphorus", "sulfur"];
 
-for (const key in steel.composition) {
+/* for (const key in steel.composition) {
   console.log(key);
-}
+} */
 
 // The challenge is to provide the sum of the composition of the steel
 // 99.93
+
+let sum = 0;
+for (const key in steel.composition) {
+  sum += steel.composition[key];
+}
+console.log(sum);
+
+
+
+
+
+
 
 
 
