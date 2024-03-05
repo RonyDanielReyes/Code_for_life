@@ -38,3 +38,7 @@ const steel = {
 // The challenge is to provide the following output:
 // ["iron", "carbon", "manganese", "phosphorus", "sulfur"];
 
+for (const key in steel.composition) {
+  console.log(key);
+}
+
