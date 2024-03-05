@@ -42,3 +42,8 @@ for (const key in steel.composition) {
   console.log(key);
 }
 
+// The challenge is to provide the sum of the composition of the steel
+// 99.93
+
+
+
