@@ -6,5 +6,5 @@
 // words is an array of 2 strings representing the words that will replace the multiples
 
 function loopyLighthouse (range, multiples, words) {
-  
+ for () 
 }
