@@ -13,3 +13,4 @@ for (const key in fruits){
  total += fruits[key];
 }
 console.log(total);
+
