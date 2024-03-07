@@ -9,9 +9,10 @@ Motorcycles can park in R, S, or M spots. */
 const whereCanIPark = function (spots, vehicle) {
   for (let y = 0; y < spots.length; y++) {
     for (let x = 0; x < spots[y].length; x++) {
-      if (vehicle === 'regular'){
-        if (spots[y][x] === 'R')
-        return [x, y]
+      if (vehicle === "regular") {
+        if (spots[y][x] === "R") return [x, y];
+      } else if (vehicle === "small") {
+        if (spots[y][x] === R || spots[y][x] === "S") return [x, y];
       }
     }
   }
