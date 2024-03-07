@@ -12,10 +12,13 @@ const whereCanIPark = function (spots, vehicle) {
       if (vehicle === "regular") {
         if (spots[y][x] === "R") return [x, y];
       } else if (vehicle === "small") {
-        if (spots[y][x] === R || spots[y][x] === "S") return [x, y];
+        if (spots[y][x] === "R" || spots[y][x] === "S") return [x, y];
+      } else if (vehicle === "motorcycle") {
+        if (spots[y][x] === "R" || spots[y][x] === "S" || spots[y][x] === 'M') return [x, y];
       }
     }
   }
+  return false;
 };
 
 console.log(
