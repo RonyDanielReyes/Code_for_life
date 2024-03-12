@@ -29,3 +29,4 @@ for (const potato of potatoRelatedEmoji) {
 }
 
 // output:
+("for...of loop found: 🥔");
