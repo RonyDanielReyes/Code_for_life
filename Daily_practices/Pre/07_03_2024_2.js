@@ -19,3 +19,4 @@ for (let i = 0; i < potatoRelatedEmoji.length; i++) {
 }
 
 // output:
+("c-style loop found: 🥔 at index 0");
