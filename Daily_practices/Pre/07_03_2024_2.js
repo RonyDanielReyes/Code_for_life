@@ -9,3 +9,6 @@ const potatoRelatedEmoji = ["🥔", "🍠", "🍟"];
 ];
 
 console.log("I like:", potatoRelatedEmoji[0]);
+
+// output:
+("I like: 🥔")
