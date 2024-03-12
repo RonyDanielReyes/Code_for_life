@@ -12,3 +12,8 @@ console.log("I like:", potatoRelatedEmoji[0]);
 
 // output:
 ("I like: 🥔")
+
+for (let i = 0; i < potatoRelatedEmoji.length; i++) {
+  const emoji = potatoRelatedEmoji[i];
+  console.log("c-style loop:", emoji, "at index:", i);
+}
