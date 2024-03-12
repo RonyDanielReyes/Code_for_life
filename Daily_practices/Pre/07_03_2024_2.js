@@ -27,3 +27,5 @@ for (let i = 0; i < potatoRelatedEmoji.length; i++) {
 for (const potato of potatoRelatedEmoji) {
   console.log("for-of loop found:", potato);
 }
+
+// output:
