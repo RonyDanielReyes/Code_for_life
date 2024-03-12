@@ -31,3 +31,4 @@ for (const potato of potatoRelatedEmoji) {
 // output:
 ("for...of loop found: 🥔");
 ("for...of loop found: 🍠");
+("for...of loop found: 🍟");
