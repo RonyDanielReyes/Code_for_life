@@ -17,3 +17,5 @@ for (let i = 0; i < potatoRelatedEmoji.length; i++) {
   const emoji = potatoRelatedEmoji[i];
   console.log("c-style loop:", emoji, "at index:", i);
 }
+
+// output:
