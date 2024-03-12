@@ -22,3 +22,8 @@ for (let i = 0; i < potatoRelatedEmoji.length; i++) {
 ("c-style loop found: 🥔 at index 0");
 ("c-style loop found: 🍠 at index 1");
 ("c-style loop found: 🍟 at index 2");
+
+// if u don't need the index, you can use a for-of loop
+for (const potato of potatoRelatedEmoji) {
+  console.log("for-of loop found:", potato);
+}
