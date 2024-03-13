@@ -29,7 +29,7 @@ const numberofemojis = catEmoji.length;
 console.log("The number of cat emojis is: " + numberofemojis + " in it");
  */
 // creating a function to store an object
-const school = {
+/* const school = {
   name: "Lighthouse Labs",
   establishedYear: 2013,
   programs: ["coding", "data", "cyber security", "other courses"], // Notice arrays, too, can be embedded as object properties
@@ -44,4 +44,6 @@ const school = {
 console.log(
   "running school.greeting(); it says:",
   school.greeting() // If the method returns a string, we can see it here!
-);
+); */
+
+// learning push method
