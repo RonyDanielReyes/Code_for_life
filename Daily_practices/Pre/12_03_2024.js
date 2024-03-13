@@ -22,10 +22,21 @@
 
 
 // adding new example with the cat emojis: 
-const catEmoji = ["🐱", "🐈", "😸", "😹", "😺", "😻", "😼", "😽", "😾", "😿", "🙀"];
+/* const catEmoji = ["🐱", "🐈", "😸", "😹", "😺", "😻", "😼", "😽", "😾", "😿", "🙀"];
 
 const numberofemojis = catEmoji.length;
 
 console.log("The number of cat emojis is: " + numberofemojis + " in it");
-
+ */
 // creating a function to store an object
+const school = {
+  name: "Lighthouse Labs",
+  establishedYear: 2013,
+  programs: ["coding", "data", "cyber security", "other courses"], // Notice arrays, too, can be embedded as object properties
+  greeting: function () {
+    let message = "Hello from Lighthouse Labs!\r\n";
+    message += "You can learn more about our school by visiting our website:\r\n";
+    message += "https://www.lighthouselabs.ca/";
+    return message;
+  },
+};
