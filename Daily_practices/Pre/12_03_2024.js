@@ -40,3 +40,8 @@ const school = {
     return message;
   },
 };
+
+console.log(
+  "running school.greeting(); it says:",
+  school.greeting() // If the method returns a string, we can see it here!
+);
