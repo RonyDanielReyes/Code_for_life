@@ -13,3 +13,4 @@ const student = {
 };
 
 
+console.log(student.name);
