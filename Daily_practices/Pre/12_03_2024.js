@@ -13,4 +13,9 @@ const student = {
 };
 
 
-console.log(student.name);
+// console.log(student.name);
+
+// trying to lopp into the object properties
+for (const key in student) {
+  console.log(key + ": " + student[key]);
+}
