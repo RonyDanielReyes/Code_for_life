@@ -27,3 +27,5 @@ const catEmoji = ["🐱", "🐈", "😸", "😹", "😺", "😻", "😼", "😽"
 const numberofemojis = catEmoji.length;
 
 console.log("The number of cat emojis is: " + numberofemojis + " in it");
+
+// creating a function to store an object
