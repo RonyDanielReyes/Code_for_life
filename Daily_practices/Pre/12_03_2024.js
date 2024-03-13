@@ -23,3 +23,5 @@ const student = {
 
 // adding new example with the cat emojis: 
 const catEmoji = ["🐱", "🐈", "😸", "😹", "😺", "😻", "😼", "😽", "😾", "😿", "🙀"];
+
+const numberofemojis = catEmoji.length;
