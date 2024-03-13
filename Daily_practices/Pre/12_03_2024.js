@@ -16,6 +16,8 @@ const student = {
 // console.log(student.name);
 
 // trying to lopp into the object properties
-for (const key in student) {
+/* for (const key in student) {
   console.log(key + ": " + student[key]);
-}
+} */
+
+// adding new example with the cat emojis: 
