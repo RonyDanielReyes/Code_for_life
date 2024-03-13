@@ -47,3 +47,4 @@ console.log(
 ); */
 
 // learning push method
+const treeEmoji = ["🌳"];
