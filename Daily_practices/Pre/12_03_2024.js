@@ -20,4 +20,6 @@ const student = {
   console.log(key + ": " + student[key]);
 } */
 
+
 // adding new example with the cat emojis: 
+const catEmoji = ["🐱", "🐈", "😸", "😹", "😺", "😻", "😼", "😽", "😾", "😿", "🙀"];
