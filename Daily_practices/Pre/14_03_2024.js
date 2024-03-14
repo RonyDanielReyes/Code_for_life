@@ -10,7 +10,7 @@ console.log(treeEmoji);
  */
 // working with tre-dimensional arrays
 
-const onedimensional = [1, 2, 3];
+/* const onedimensional = [1, 2, 3];
 
 
 const twodimensional = [
@@ -25,4 +25,8 @@ const coordinatey = twodimensional[2][1];
 
 console.log("This is x " + coordinatex + " This is y " + coordinatey);
 
+
+ */
+
+// working with fruit project
 
