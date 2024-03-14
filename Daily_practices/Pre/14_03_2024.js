@@ -30,3 +30,8 @@ console.log("This is x " + coordinatex + " This is y " + coordinatey);
 
 // working with fruit project
 
+const fruitOpinions = [
+  ["🍎", "positive", 20, "negative", 15],
+  ["🍍", "positive", 2, "negative", 33],
+  ["🍌", "positive", 15, "negative", 15],
+];
