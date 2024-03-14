@@ -35,3 +35,22 @@ const fruitOpinions = [
   ["🍍", "positive", 2, "negative", 33],
   ["🍌", "positive", 15, "negative", 15],
 ];
+for (const fruits of fruitOpinions) {
+  // This loop gets the sub-arrays
+  outputString += "\n";
+  for (const fruitInfo of fruits) {
+    // This loop gets the info in the sub-array
+    if (fruitInfo === "positive") {
+      // We'll replace the word "positive" with a formatted string
+      outputString += ": ✅ - ";
+    } else if (fruitInfo === "negative") {
+      // We'll replace the word "negative" with a formatted string
+      outputString += " | ❌ - ";
+    } else {
+      // Everything else can just show as-is :)
+      outputString += fruitInfo;
+    }
+  }
+}
+
+console.log(outputString);
