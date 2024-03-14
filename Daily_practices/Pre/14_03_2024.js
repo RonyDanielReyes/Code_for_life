@@ -7,3 +7,5 @@ treeEmoji.push("🌲");
 treeEmoji.push("🌴");
 // priting the new array
 console.log(treeEmoji);
+
+// working with tre-dimensional arrays
