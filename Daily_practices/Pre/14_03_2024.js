@@ -35,6 +35,10 @@ const fruitOpinions = [
   ["🍍", "positive", 2, "negative", 33],
   ["🍌", "positive", 15, "negative", 15],
 ];
+
+let outputString = "FRUIT OPINION DATA:\n"; // \n means new line
+outputString += "==================";
+
 for (const fruits of fruitOpinions) {
   // This loop gets the sub-arrays
   outputString += "\n";
