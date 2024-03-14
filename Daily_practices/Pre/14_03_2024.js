@@ -1,0 +1,2 @@
+//  creating variable
+const treeEmoji = ["🌳"];
