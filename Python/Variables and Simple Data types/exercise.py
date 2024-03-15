@@ -11,3 +11,8 @@ print(bicyles[-1])
 # changing the value of an item in a list
 bicyles[0] = 'honda'
 print(bicyles[0])
+
+
+# appending items to a list
+bicyles.append('trek')
+print(bicyles)
