@@ -1,6 +1,7 @@
 # creating first document
-print("hello world")
+""" print("hello world")
+ """
 
-
-# creating list
-
+# learning about lists 15-03-2024
+bicyles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicyles[0])
