@@ -16,3 +16,7 @@ print(bicyles[0])
 # appending items to a list
 bicyles.append('trek')
 print(bicyles)
+
+# deleting items from a list
+del bicyles[0]
+print(bicyles)
