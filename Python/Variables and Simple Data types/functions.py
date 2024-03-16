@@ -4,5 +4,6 @@ def get_formated(first_name, last_name):
   full_name = f"{first_name} {last_name}"
   return full_name.title()
 
+
 musician = get_formated('jimi', 'hendrix')
 print(musician)
