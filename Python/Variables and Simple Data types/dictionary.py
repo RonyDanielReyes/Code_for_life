@@ -30,3 +30,18 @@ else:
     
 alien_1['x_position'] = alien_1['x_position'] + x_increment
 print(alien_1)
+
+# working with dictionary in a dictionary
+users = {
+  "aeinstein": {
+    'first': 'albert',
+    'last': 'einstein',
+    'location': 'princeton',
+  },
+  "mcurie": {
+    'first': 'marie',
+    'last': 'curie',
+    'location': 'paris',
+  },  
+}
+
