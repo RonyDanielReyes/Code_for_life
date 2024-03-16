@@ -32,7 +32,7 @@ alien_1['x_position'] = alien_1['x_position'] + x_increment
 print(alien_1) """
 
 # working with dictionary in a dictionary
-users = {
+""" users = {
   "aeinstein": {
     'first': 'albert',
     'last': 'einstein',
@@ -52,3 +52,16 @@ for username, user_info in users.items():
     
     print(f"\tFull name: {full_name.title()}")
     print(f"\tLocation: {location.title()}")
+ """
+
+favorite_languages = {
+'jen': ['python', 'ruby'],
+'sarah': ['c'],
+'edward': ['ruby', 'go'],
+'phil': ['python', 'haskell'],
+}
+
+for name, languages in favorite_languages.items():
+  print(f"\n{name.title()}'s favorite languages are:")
+  for language in languages:
+    print(f"\t{language.title()}")
