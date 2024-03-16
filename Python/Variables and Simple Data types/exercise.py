@@ -3,7 +3,7 @@
  """
 
 # learning about lists 15-03-2024
-bicyles = ['trek', 'cannondale', 'redline', 'specialized']
+""" bicyles = ['trek', 'cannondale', 'redline', 'specialized']
 print(bicyles[0])
 # accessing the last item
 print(bicyles[-1])
@@ -20,3 +20,4 @@ print(bicyles)
 # deleting items from a list
 del bicyles[0]
 print(bicyles)
+ """
