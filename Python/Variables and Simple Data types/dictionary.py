@@ -14,3 +14,7 @@ print(alien_1)
 # modifying values in a dictionary
 alien_1['color'] = 'yellow'
 print(alien_1)
+
+# removing key-value pairs
+del alien_1['x_position']
+print(alien_1)
