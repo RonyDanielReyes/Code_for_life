@@ -1,13 +1,5 @@
-# working with functions
-def get_formated(first_name, last_name):
-  """Return a full name, neatly formatted."""
-  full_name = f"{first_name} {last_name}"
-  return full_name.title()
-
-
-musician = get_formated('jimi', 'hendrix')
-print(musician)
-
-## 
-
-## 
+##  adding a new function
+def describe_pet(animal_type, pet_name):
+  """Display information about a pet."""
+  print(f"\nI have a {animal_type}.")
+  print(f"My {animal_type}'s name is {pet_name.title()}.")
