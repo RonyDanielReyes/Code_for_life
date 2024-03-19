@@ -7,3 +7,6 @@ class Dog:
     
   def sit(self):
     print("{} is now sitting.".format(self.name))
+    
+  def roll_over(self):
+    print("{} rolled over!".format(self.name))
