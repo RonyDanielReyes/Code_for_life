@@ -1,7 +1,7 @@
 # learning about classes 03/18/2024
 class Dog:
   
-  def _init_(self, name, age):
+  def __init__(self, name, age):
     self.name = name
     self.age = age
     
@@ -10,3 +10,7 @@ class Dog:
     
   def roll_over(self):
     print("{} rolled over!".format(self.name))
+    
+my_dog = Dog('willie', 6)
+my_dog.sit()
+my_dog.roll_over()
