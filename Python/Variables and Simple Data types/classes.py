@@ -51,8 +51,12 @@ class Car:
   
   def read_odometer(self):
       print("This car has {} miles on it.".format(self.odometer_reading))
+  
+  def update_odometer(self, mileage):
+    self.odometer_reading = mileage
 
 my_new_car = Car('audi', 'a4', 2016)
 print(my_new_car.get_descriptive_name())
+my_new_car.update_odometer(23)
 my_new_car.read_odometer()
 
