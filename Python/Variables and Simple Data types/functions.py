@@ -14,10 +14,13 @@ describe_pet('hamster', 'harry')
 
 describe_pet('hamster', 'harry') """
 
-# creating two functions can work together
+# creating two functions can work together   03-18-2024
+
+# two functions with a main porpose of printing a model and showing the completed models
 
 unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 completed_models = []
+
 
 def print_models(unprinted_designs, completed_models):
     while unprinted_designs:
@@ -34,3 +37,5 @@ def show_completed_models(completed_models):
 
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
+
+## this code 
