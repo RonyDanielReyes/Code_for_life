@@ -1,4 +1,4 @@
-# learning about classes 03/18/2024
+""" # learning about classes 03/18/2024
 
 # creating a class
 class Dog:
@@ -35,4 +35,12 @@ your_dog = Dog('Lucy', 3)
 your_dog.get_name()
 your_dog.sit()
 your_dog.roll_over()
+
+ """
+ 
+ class Car:
+   def __init__(self, make, model, year):
+      self.make = make
+      self.model = model
+      self.year = year
 
