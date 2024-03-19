@@ -29,3 +29,10 @@ my_dog.get_name()
 my_dog.sit()
 my_dog.roll_over()
 
+print('\n')
+# creating another instance
+your_dog = Dog('Lucy', 3)
+your_dog.get_name()
+your_dog.sit()
+your_dog.roll_over()
+
