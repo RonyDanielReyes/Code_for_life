@@ -59,6 +59,13 @@ class Car:
     def increment_odometer(self, miles):
         self.odometer_reading += miles
 
+class Battery:
+    def __init__(self, battery_size=75):
+        self.battery_size = battery_size
+
+    def describe_battery(self):
+        print("This car has a {}-kWh battery.".format(self.battery_size))
+        
 class ElectricCar(Car):
     def __init__(self, make, model, year):
         Car.__init__(self, make, model, year)
