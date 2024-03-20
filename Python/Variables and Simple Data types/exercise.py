@@ -21,3 +21,6 @@ print(bicyles)
 del bicyles[0]
 print(bicyles)
  """
+ 
+ 
+
