@@ -65,6 +65,9 @@ class ElectricCar(Car):
         
     def describe_battery(self):
         print("This car has a 75-kWh battery.")
+        
+    def fill_gas_tank(self):
+        print("This car doesn't need a gas tank!")
 
 
 my_tesla = ElectricCar('tesla', 'models', 2019)
