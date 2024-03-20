@@ -35,9 +35,7 @@ your_dog = Dog('Lucy', 3)
 your_dog.get_name()
 your_dog.sit()
 your_dog.roll_over()
-
  """
- 
 class Car:
     def __init__(self, make, model, year):
         self.make = make
@@ -64,7 +62,13 @@ class Car:
 class ElectricCar(Car):
     def __init__(self, make, model, year):
         Car.__init__(self, make, model, year)
+        
+    def describe_battery(self):
+        print("This car has a 75-kWh battery.")
 
 
 my_tesla = ElectricCar('tesla', 'models', 2019)
 print(my_tesla.get_descriptive_name())
+my_tesla.describe_battery()
+
+
