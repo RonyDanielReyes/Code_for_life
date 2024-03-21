@@ -7,4 +7,6 @@ with open('file.txt') as file_object:
   # read the file
     contents = file_object.read()
     # print the file
-    print(contents)
+    # print(contents)
+    # to remove the space at the end
+    print(contents.rstrip())
