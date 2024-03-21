@@ -2,8 +2,10 @@
 
 # python has to modify the file in order to read it
 
+file = 'file.txt'
+
 # open the file in the same directory
-with open('file.txt') as file_object:
+with open(file) as file_object:
   # read the file
     contents = file_object.read()
     # print the file
