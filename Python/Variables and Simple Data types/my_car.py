@@ -20,3 +20,7 @@ my_new_car.read_odometer()
 
  """
 
+## importing random import randint
+from random import randint
+le = randint(1, 6)
+print(le)
