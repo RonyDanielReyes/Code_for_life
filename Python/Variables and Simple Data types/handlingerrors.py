@@ -26,5 +26,7 @@ while True:
 # reading a file with handling errors
 file = 'alice.txt'
 
-with open(file, encoding='utf-8') as f_obj:
+# this is without handling error
+""" with open(file, encoding='utf-8') as f_obj:
   contents = f_obj.read()
+ """
