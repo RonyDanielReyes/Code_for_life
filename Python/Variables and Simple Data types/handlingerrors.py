@@ -24,9 +24,16 @@ while True:
     print(answer) """
     
 # reading a file with handling errors
-file = 'alice.txt'
+
 
 # this is without handling error
 """ with open(file, encoding='utf-8') as f_obj:
   contents = f_obj.read()
  """
+ 
+file = 'alice.txt'
+try:
+  with open(file, encoding='utf-8') as f:
+    contents = f.read()
+except FileNotFoundError:
+  print("Sorry, the file {} does not exist.".format(file))
