@@ -14,3 +14,7 @@ def count_words(file):
         num_words = len(words)
         print("The file '{}' has about {} words.".format(file, num_words))
 
+filesnames = ['file_0.txt', 'file_1.txt', 'file_2.txt', 'file_3.txt', 'file_4.txt']
+
+for filename in filesnames:
+    count_words(filename)
