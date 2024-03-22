@@ -31,3 +31,9 @@ with open(file) as file_object:
 
 # creating a string from a file    
 pi_strong = ''
+
+for line in lines:
+  pi_strong += line.strip()
+  
+print(pi_strong)
+print(len(pi_strong))
