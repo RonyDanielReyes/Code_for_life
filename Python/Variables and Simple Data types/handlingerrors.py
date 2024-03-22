@@ -30,7 +30,9 @@ while True:
 """ with open(file, encoding='utf-8') as f_obj:
   contents = f_obj.read()
  """
- 
+
+# codecs module is used to handle errors
+# this is with handling error
 import codecs
 
 file = 'alice.txt'
