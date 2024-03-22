@@ -37,7 +37,13 @@ else:
    
 file = 'file.txt'
 
-with open(file, 'w') as file_object:
+# this code below helps us to write a code
+""" with open(file, 'w') as file_object:
   file_object.write("I love programming.\n")
-  file_object.write("I love creating new games.\n")
+  file_object.write("I love creating new games.\n") """
+  
+# this code helps us to append in the existing file
+with open(file, 'a') as file_object:
+  file_object.write("I also love finding meaning in large datasets.\n")
+  file_object.write("I love creating apps that can run in a browser.\n")
   
