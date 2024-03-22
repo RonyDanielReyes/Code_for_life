@@ -50,6 +50,7 @@ except Exception as e:
 import codecs
 
 file = 'file.txt'
+
 try:
     with codecs.open(file, 'r', encoding='utf-8') as f:
         contents = f.read()
