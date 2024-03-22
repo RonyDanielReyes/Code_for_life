@@ -5,10 +5,15 @@
 file = 'file.txt'
 
 # open the file in the same directory
-with open(file) as file_object:
+""" with open(file) as file_object:
   # read the file
     contents = file_object.read()
     # print the file
     # print(contents)
     # to remove the space at the end
-    print(contents.rstrip())
+    print(contents.rstrip()) """
+    
+    # opening each line of the file
+with open(file) as file_object:
+  for line in file_object:
+    print(line.rstrip())
