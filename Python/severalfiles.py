@@ -1,8 +1,6 @@
 ## creating a program that opens several files
 import codecs
 
-file = 'file.txt'
-
 def count_words(file):
     try:
         with codecs.open(file, 'r', encoding='utf-8') as f:
