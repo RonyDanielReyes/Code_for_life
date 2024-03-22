@@ -24,5 +24,7 @@ with open(file) as file_object:
   # readline reaads each line and stores it in a list
   lines = file_object.readlines()
   
+  # print the list
   for line in lines:
+    # remove the space at the end
     print(line.rstrip())
