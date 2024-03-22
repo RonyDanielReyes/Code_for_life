@@ -16,5 +16,7 @@ def count_words(file):
 
 filesnames = ['file_0.txt', 'file_1.txt', 'file_2.txt', 'file_3.txt', 'file_4.txt']
 
+# the file_4 does not exist so it will populate does not exist"
+
 for filename in filesnames:
     count_words(filename)
