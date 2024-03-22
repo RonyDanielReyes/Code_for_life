@@ -32,11 +32,6 @@ pi_strong = ''
 for line in lines:
   pi_strong += line.strip()
   
-print("{}...".format(pi_strong[:52]))
-
-print(len(pi_strong))
-
-
 birthday = input("Enter your birthday in the form mmddyy: ")
 if birthday in pi_strong:
   print("Your birthday appears in the first 52 digits of pi")
