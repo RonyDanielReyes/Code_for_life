@@ -28,3 +28,6 @@ with open(file) as file_object:
   for line in lines:
     # remove the space at the end
     print(line.rstrip())
+
+# creating a string from a file    
+pi_strong = ''
