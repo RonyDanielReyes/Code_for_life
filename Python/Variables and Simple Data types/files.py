@@ -14,6 +14,13 @@ file = 'file.txt'
     print(contents.rstrip()) """
     
     # opening each line of the file
-with open(file) as file_object:
+""" with open(file) as file_object:
   for line in file_object:
+    print(line.rstrip()) """
+
+# making a list tof lines from a file
+with open(file) as file_object:
+  lines = file_object.readlines()
+  
+  for line in lines:
     print(line.rstrip())
