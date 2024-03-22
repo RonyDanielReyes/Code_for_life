@@ -32,8 +32,9 @@ while True:
  """
  
 file = 'alice.txt'
+
 try:
   with open(file, encoding='utf-8') as f:
     contents = f.read()
-except FileNotFoundError:
+except IOError:
   print("Sorry, the file {} does not exist.".format(file))
