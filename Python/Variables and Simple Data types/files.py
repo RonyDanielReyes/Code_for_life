@@ -25,9 +25,6 @@ with open(file) as file_object:
   lines = file_object.readlines()
   
   # print the list
-  for line in lines:
-    # remove the space at the end
-    print(line.rstrip())
 
 # creating a string from a file    
 pi_strong = ''
@@ -35,5 +32,6 @@ pi_strong = ''
 for line in lines:
   pi_strong += line.strip()
   
-print(pi_strong)
+print("{}...".format(pi_strong[:52]))
+
 print(len(pi_strong))
