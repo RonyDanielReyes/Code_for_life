@@ -35,3 +35,12 @@ for line in lines:
 print("{}...".format(pi_strong[:52]))
 
 print(len(pi_strong))
+
+
+birthday = input("Enter your birthday in the form mmddyy: ")
+if birthday in pi_strong:
+  print("Your birthday appears in the first 52 digits of pi")
+else:
+  print("Your birthday does not appear in the first 52 digits of pi")
+  
+  
