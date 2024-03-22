@@ -20,6 +20,8 @@ file = 'file.txt'
 
 # making a list tof lines from a file
 with open(file) as file_object:
+  
+  # readline reaads each line and stores it in a list
   lines = file_object.readlines()
   
   for line in lines:
