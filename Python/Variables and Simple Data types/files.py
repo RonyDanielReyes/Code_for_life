@@ -2,7 +2,7 @@
 
 # python has to modify the file in order to read it
 
-file = 'file.txt'
+#file = 'file.txt'
 
 # open the file in the same directory
 """ with open(file) as file_object:
@@ -19,7 +19,7 @@ file = 'file.txt'
     print(line.rstrip()) """
 
 # making a list tof lines from a file
-with open(file) as file_object:
+""" with open(file) as file_object:
   lines = file_object.readlines()
 pi_strong = ''
 
@@ -28,8 +28,16 @@ for line in lines:
   
 birthday = input("Enter your birthday in the form mmddyy: ")
 if str(birthday) in pi_strong:
-  print("Your birthday appears in the first 52 digits of pi")
+  print("Your birthday appears in the first million digits of pi!")
 else:
-  print("Your birthday does not appear in the first 52 digits of pi")
+  print("Your birthday does not appears in the first million digits of pi!")
   
+   """
+# writing to a file
+   
+file = 'file.txt'
+
+with open(file, 'w') as file_object:
+  file_object.write("I love programming.\n")
+  file_object.write("I love creating new games.\n")
   
