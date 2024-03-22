@@ -20,20 +20,14 @@ file = 'file.txt'
 
 # making a list tof lines from a file
 with open(file) as file_object:
-  
-  # readline reaads each line and stores it in a list
   lines = file_object.readlines()
-  
-  # print the list
-
-# creating a string from a file    
 pi_strong = ''
 
 for line in lines:
   pi_strong += line.strip()
   
 birthday = input("Enter your birthday in the form mmddyy: ")
-if birthday in pi_strong:
+if str(birthday) in pi_strong:
   print("Your birthday appears in the first 52 digits of pi")
 else:
   print("Your birthday does not appear in the first 52 digits of pi")
