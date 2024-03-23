@@ -4,7 +4,8 @@ def main():
     last_name = input("Enter your last name: ")
 
     # Print welcome message with first name and last name
-    print(f"Welcome, {first_name} {last_name}!")
+    print("Welcome {}{}," .format(first_name, last_name))
+
 
 if __name__ == "__main__":
     main()
