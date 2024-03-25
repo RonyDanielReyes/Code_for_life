@@ -10,6 +10,8 @@ class NameTestCase(unittest.TestCase):
         formatted_name = get_formatted_name('jimi', 'hendrix')
         # check if the result is equal to the expected result
         self.assertEqual(formatted_name, 'Jimi Hendrix')
+        
+    def test_first_middle_last_name(self):
  
 # run the test
 if __name__ == '__main__':
