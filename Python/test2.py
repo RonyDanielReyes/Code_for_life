@@ -12,6 +12,8 @@ class NameTestCase(unittest.TestCase):
         self.assertEqual(formatted_name, 'Jimi Hendrix')
         
     def test_first_middle_last_name(self):
+        formatted_name = get_formatted_name('john', 'hooker', 'lee')
+        self.assertEqual(formatted_name, 'John Lee Hooker')
  
 # run the test
 if __name__ == '__main__':
