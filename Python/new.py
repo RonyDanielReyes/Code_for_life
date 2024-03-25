@@ -18,3 +18,5 @@ for i in list:
     print(list)
   else:
     print(i)
+    
+# print the list
