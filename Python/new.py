@@ -11,4 +11,9 @@ print(list)
 
 # looping through the list
 for item in list:
+  # looping through the second element
+  for element in list:
+    print(element)
+    
   print(item)
+  
