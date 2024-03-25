@@ -9,11 +9,12 @@ del list[2]
 
 print(list)
 
-# looping through the list
-for item in list:
-  # looping through the second element
-  for element in list:
-    print(element)
-    
-  print(item)
-  
+# looping through the last element in the list
+# once the last element is reached, delete it
+# and print the list
+for i in list:
+  if i == list[-1]:
+    del list[-1]
+    print(list)
+  else:
+    print(i)
