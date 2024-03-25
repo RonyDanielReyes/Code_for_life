@@ -12,3 +12,4 @@ print(get_formatted_name('jimi', 'hendrix'))
 # testing the function in different way
 print(get_formatted_name('john', 'lennon'))
 
+# 
